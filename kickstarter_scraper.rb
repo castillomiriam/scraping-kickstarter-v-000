@@ -3,6 +3,7 @@ require 'nokogiri'
 require 'pry'
 
 def create_project_hash
+  binding.pry
   # write your code here
   html = File.read('fixtures/kickstarter.html')
 
